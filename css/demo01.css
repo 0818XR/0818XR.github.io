@@ -1,0 +1,43 @@
+/* Reset CSS */
+html {
+    box-sizing: border-box; /* 设置元素的盒模型为border-box，避免不同浏览器下布局错位 */
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin: 0; /* 清除所有元素的外边距 */
+    padding: 0; /* 清除所有元素的内边距 */
+}
+table {
+    border-collapse: collapse; /* 合并表格单元格的边框 */
+}
+img {
+    display: inline-block; /* 将图片显示为行内块元素，防止换行 */
+    vertical-align: middle; /* 将图片在文本中居中对齐 */
+}
+a {
+    color: inherit; /* 继承父元素的字体颜色 */
+    text-decoration: none; /* 去除超链接默认的下划线效果 */
+}
+button {
+    cursor: pointer; /* 改变光标形状为手指 */
+    background: transparent; /* 移除按钮的背景色 */
+    outline: none; /* 取消按钮点击时的默认边框 */
+}
+input[type="text"], input[type="password"] {
+    -webkit-appearance: none; /* 移除输入框的原生样式 */
+    appearance: none;
+    border: none; /* 移除输入框的边框 */
+    outline: none; /* 取消输入框获得焦点后的默认边框 */
+}
+
+
+
+/* 以下为自行定义 */
+/* 乌龟图片的设置 */
+.wugui{
+    width: 200px;
+    overflow: hidden;
+}
+
+.wugui img{
+    width: 200px;
+}
